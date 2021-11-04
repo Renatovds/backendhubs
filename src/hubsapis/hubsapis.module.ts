@@ -8,5 +8,6 @@ import { HubSchema, Hub } from './entities/hubapi.schema';
   imports: [MongooseModule.forFeature([{ name: Hub.name, schema: HubSchema }])],
   controllers: [HubsapisController],
   providers: [HubsapisService],
+  exports: [HubsapisService],
 })
 export class HubsapisModule {}

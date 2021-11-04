@@ -4,7 +4,6 @@ import {
   Post,
   Body,
   Patch,
-  Put,
   Param,
   Delete,
 } from '@nestjs/common';

@@ -10,8 +10,10 @@ export class HubsController {
   ) {}
   @Get('/')
   async gethubs() {
-    const data = this.service.execute();
-    const checkedData = this.checkLateTask.execute(data);
-    return checkedData;
+    const data = await this.service.execute();
+    // // const checkedData = this.checkLateTask.execute(data);
+    // const tasks = checkedData.filter((task) => task.Atrasada == true);
+    console.log(data);
+    return data;
   }
 }
