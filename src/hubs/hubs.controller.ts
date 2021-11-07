@@ -5,15 +5,14 @@ import { CheckLateTaskService } from '../check-late-task/check-late-task.service
 @Controller('hubs')
 export class HubsController {
   constructor(
-    private service: HubsService,
+    private hubsService: HubsService,
     private checkLateTask: CheckLateTaskService,
   ) {}
   @Get('/')
   async gethubs() {
-    const data = await this.service.execute();
-    // // const checkedData = this.checkLateTask.execute(data);
-    // const tasks = checkedData.filter((task) => task.Atrasada == true);
-    console.log(data);
-    return data;
+    const data = await this.hubsService.execute();
+    const checkedData = this.checkLateTask.execute(data);
+    const filteredData = this.checkLateTask.filterTasks(checkedData);
+    return filteredData;
   }
 }
