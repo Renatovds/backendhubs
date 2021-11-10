@@ -21,15 +21,23 @@ export class HubsService {
       const dataHub: DataHub = {
         id_HUB: response.id,
         name: response.name,
+        error: false,
         tasks: [],
       };
-      await (
-        await response.responseDataHub
-      ).data.map((item) =>
-        Object.keys(item).map((key) => dataHub.tasks.push(item[key])),
-      );
-      dataHubs.push(dataHub);
-      console.log(dataHub);
+      try {
+        await (
+          await response.responseDataHub
+        ).data.map((item) =>
+          Object.keys(item).map((key) => dataHub.tasks.push(item[key])),
+        );
+
+        if (dataHub.tasks.length <= 0) {
+          dataHub.error = true;
+        }
+        dataHubs.push(dataHub);
+      } catch (err) {
+        console.error(err);
+      }
     }
 
     return dataHubs;

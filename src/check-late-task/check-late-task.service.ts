@@ -13,6 +13,16 @@ export class CheckLateTaskService {
           new Date(Number(item.ProximaChamada) * 1000 + delayMilliseconds),
         );
         item.Atrasada = islate ? true : false;
+        console.log(
+          'Proxima Chamada:',
+          new Date(
+            Number(item.ProximaChamada) * 1000 + delayMilliseconds,
+          ).toLocaleString('pt-BR'),
+          hub.name,
+          item.TarefaId,
+          'Data Atual:',
+          new Date(Date.now()).toLocaleString('pt-BR'),
+        );
       });
     });
     return data;
