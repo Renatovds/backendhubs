@@ -14,12 +14,11 @@ export class SchedulerService {
     private hubsCached: HubsCached,
     private checkLateTask: CheckLateTaskService,
   ) {}
-  @Cron('45 * * * * *')
+  // @Cron('45 * * * * *')
   async execute() {
     const data = await this.hubsService.execute();
     const checkedData = this.checkLateTask.execute(data);
     const filteredData = this.checkLateTask.filterTasks(checkedData);
     await this.hubsCached.setValue(filteredData);
-    console.log('rodei');
   }
 }
