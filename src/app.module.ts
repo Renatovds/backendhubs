@@ -7,6 +7,7 @@ import { CheckLateTaskService } from './check-late-task/check-late-task.service'
 import { MongooseModule } from '@nestjs/mongoose';
 import { HubsapisModule } from './hubsapis/hubsapis.module';
 import { FiltersModule } from './filters/filters.module';
+import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { FiltersModule } from './filters/filters.module';
     HubsapisModule,
     FiltersModule,
     CacheModule.register(),
+    ScheduleModule.forRoot(),
   ],
   controllers: [HubsController],
   providers: [HubsService, CheckLateTaskService, HubsCached, SchedulerService],

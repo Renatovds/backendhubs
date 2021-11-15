@@ -10,7 +10,9 @@ export class HubsCached {
   ) {}
   async setValue(data) {
     await this.cacheManager.del('hubs');
-    await this.cacheManager.set('hubs', data);
+    await this.cacheManager.set('hubs', data, { ttl: 0 });
+    const resp = await this.cacheManager.get('hubs');
+    console.log(resp);
   }
 
   async getValue(key) {
