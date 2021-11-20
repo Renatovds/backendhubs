@@ -8,13 +8,18 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { HubsapisModule } from './hubsapis/hubsapis.module';
 import { FiltersModule } from './filters/filters.module';
 import { ScheduleModule } from '@nestjs/schedule';
+import * as redisStore from 'cache-manager-redis-store';
 
 @Module({
   imports: [
     MongooseModule.forRoot('mongodb://localhost:27017/hubsdb'),
     HubsapisModule,
     FiltersModule,
-    CacheModule.register(),
+    CacheModule.register({
+      store: redisStore,
+      host: '192.168.99.101',
+      port: 6379,
+    }),
     ScheduleModule.forRoot(),
   ],
   controllers: [HubsController],
