@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
-import { Task } from '../interfaces/task.interface';
 import { DataHub } from '../interfaces/dataHub.interface';
 import { HubsapisService } from '../hubsapis/hubsapis.service';
 
