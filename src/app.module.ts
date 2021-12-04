@@ -1,6 +1,7 @@
 import { Module, CacheModule } from '@nestjs/common';
 import { HubsController } from './hubs/hubs.controller';
 import { HubsService } from './hubs/hubs.service';
+import { Logger } from './logs/logger.service';
 import { HubsCached } from './hubs/hubsCached.service';
 import { SchedulerService } from './scheduler/scheduler.service';
 import { CheckLateTaskService } from './check-late-task/check-late-task.service';
@@ -25,7 +26,13 @@ import * as redisStore from 'cache-manager-redis-store';
     UsersModule,
   ],
   controllers: [HubsController],
-  providers: [HubsService, CheckLateTaskService, HubsCached, SchedulerService],
+  providers: [
+    HubsService,
+    CheckLateTaskService,
+    HubsCached,
+    SchedulerService,
+    Logger,
+  ],
   exports: [CheckLateTaskService],
 })
 export class AppModule {}

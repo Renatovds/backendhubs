@@ -1,5 +1,6 @@
 import { Injectable, Inject, CACHE_MANAGER } from '@nestjs/common';
 import { Cache } from 'cache-manager';
+import { DataHub } from 'src/interfaces/dataHub.interface';
 import { HubsService } from './hubs.service';
 
 @Injectable()
@@ -15,8 +16,8 @@ export class HubsCached {
     console.log(resp);
   }
 
-  async getValue(key) {
-    const response = await this.cacheManager.get(key);
+  async getValue(key): Promise<DataHub[]> {
+    const response: DataHub[] = await this.cacheManager.get(key);
 
     return response;
   }

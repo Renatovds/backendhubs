@@ -14,6 +14,7 @@ export class HubsController {
   async gethubs() {
     const response = await this.cacheManager.get('hubs');
     console.log('chamou');
+    console.log(response[0].name);
     return response;
   }
 }
