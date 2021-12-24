@@ -13,16 +13,16 @@ export class CheckLateTaskService {
           new Date(Number(item.ProximaChamada) * 1000 + delayMilliseconds),
         );
         item.Atrasada = islate ? true : false;
-        console.log(
-          'Proxima Chamada:',
-          new Date(
-            Number(item.ProximaChamada) * 1000 + delayMilliseconds,
-          ).toLocaleString('pt-BR'),
-          hub.name,
-          item.TarefaId,
-          'Data Atual:',
-          new Date(Date.now()).toLocaleString('pt-BR'),
-        );
+        // console.log(
+        //   'Proxima Chamada:',
+        //   new Date(
+        //     Number(item.ProximaChamada) * 1000 + delayMilliseconds,
+        //   ).toLocaleString('pt-BR'),
+        //   hub.name,
+        //   item.TarefaId,
+        //   'Data Atual:',
+        //   new Date(Date.now()).toLocaleString('pt-BR'),
+        // );
       });
     });
     return data;
@@ -32,7 +32,10 @@ export class CheckLateTaskService {
     data.forEach((hub) => {
       hub.tasks = hub.tasks.filter(
         (task) =>
-          task.Atrasada === true && task.Status !== '2' && task.Status !== '',
+          task.Atrasada === true &&
+          task.Status !== '0' &&
+          task.Status !== '' &&
+          task.Status !== '2',
       );
     });
     return data;

@@ -1,7 +1,10 @@
 import { Module, CacheModule } from '@nestjs/common';
 import { HubsController } from './hubs/hubs.controller';
+import { LogsController } from './logs/logs.controller';
 import { HubsService } from './hubs/hubs.service';
 import { Logger } from './logs/logger.service';
+import { LogsService } from './logs/logs.service';
+import { LoggerWinston } from './logs/loggerWinston.service';
 import { HubsCached } from './hubs/hubsCached.service';
 import { SchedulerService } from './scheduler/scheduler.service';
 import { CheckLateTaskService } from './check-late-task/check-late-task.service';
@@ -10,6 +13,7 @@ import { HubsapisModule } from './hubsapis/hubsapis.module';
 import { FiltersModule } from './filters/filters.module';
 import { ScheduleModule } from '@nestjs/schedule';
 import { UsersModule } from './users/users.module';
+import { LogsModule } from './logs/logs.module';
 import * as redisStore from 'cache-manager-redis-store';
 
 @Module({
@@ -24,14 +28,16 @@ import * as redisStore from 'cache-manager-redis-store';
     }),
     ScheduleModule.forRoot(),
     UsersModule,
+    LogsModule,
   ],
-  controllers: [HubsController],
+  controllers: [HubsController, LogsController],
   providers: [
     HubsService,
     CheckLateTaskService,
     HubsCached,
     SchedulerService,
     Logger,
+    LoggerWinston,
   ],
   exports: [CheckLateTaskService],
 })
