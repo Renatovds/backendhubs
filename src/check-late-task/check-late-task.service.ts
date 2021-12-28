@@ -5,7 +5,7 @@ import { DataHub } from '../interfaces/dataHub.interface';
 @Injectable()
 export class CheckLateTaskService {
   execute(data: DataHub[]) {
-    const delayMilliseconds = 5 * 60 * 1000;
+    const delayMilliseconds = 10 * 60 * 1000;
     data.forEach((hub) => {
       hub.tasks.forEach((item) => {
         const islate = isAfter(

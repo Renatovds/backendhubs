@@ -10,6 +10,9 @@ export class Hub {
 
   @Prop()
   url: string;
+
+  @Prop()
+  url_hub: string;
 }
 
 export const HubSchema = SchemaFactory.createForClass(Hub);

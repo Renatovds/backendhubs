@@ -14,6 +14,7 @@ export class HubsService {
         responseDataHub: axios.get(hub.url),
         id: hub.id,
         name: hub.name,
+        url_hub: hub.url_hub,
       };
     });
     for await (const response of hubsResponses) {
@@ -21,6 +22,7 @@ export class HubsService {
         id_HUB: response.id,
         name: response.name,
         error: false,
+        url_hub: response.url_hub,
         tasks: [],
       };
       try {
@@ -36,6 +38,8 @@ export class HubsService {
         dataHubs.push(dataHub);
       } catch (err) {
         console.error(err);
+        dataHub.error = true;
+        dataHubs.push(dataHub);
       }
     }
 
