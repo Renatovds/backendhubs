@@ -14,6 +14,7 @@ import { FiltersModule } from './filters/filters.module';
 import { ScheduleModule } from '@nestjs/schedule';
 import { UsersModule } from './users/users.module';
 import { LogsModule } from './logs/logs.module';
+import { AuthModule } from './auth/auth.module';
 import * as redisStore from 'cache-manager-redis-store';
 
 @Module({
@@ -29,6 +30,7 @@ import * as redisStore from 'cache-manager-redis-store';
     ScheduleModule.forRoot(),
     UsersModule,
     LogsModule,
+    AuthModule,
   ],
   controllers: [HubsController, LogsController],
   providers: [
