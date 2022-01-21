@@ -1,0 +1,312 @@
+hub,taskNumber,taskName,Status,data,lastRun
+Unilever,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Middleware,184,Integração Preço,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),07/01/2022 23:35:09
+Climate,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 07:46:13
+Fabercastell,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Vila Nova,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Loja Perfeita,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 12:06:08
+Josapar,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 07:51:38
+Josapar,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Josapar,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),04/01/2022 07:51:43
+Josapar,193,Disparar Emails,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 20:18:02
+Coty - Loja do Varejo,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,198,Integração de Política de Preço,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),07/01/2022 19:51:52
+AbasteceBem,,,Hub com erro,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 01:15:05 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+Vila Nova,,,Hub ativo,Sat Jan 08 2022 01:16:07 GMT-0300 (GMT-03:00),undefined
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Parada,Sat Jan 08 2022 01:16:07 GMT-0300 (GMT-03:00),07/01/2022 23:39:52
+Unilever,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Unilever,519,Sumarizao de Produtos,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),07/01/2022 23:39:29
+Unilever,198,Integração de Política de Preço,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),08/01/2022 00:02:44
+Food,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Atrasada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 07:46:13
+Fabercastell,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Loja Perfeita,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 12:06:08
+Josapar,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 07:51:38
+Josapar,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Josapar,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),04/01/2022 07:51:43
+Josapar,193,Disparar Emails,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 20:18:02
+Coty - Loja do Varejo,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,198,Integração de Política de Preço,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),07/01/2022 19:51:52
+AbasteceBem,,,Hub ativo,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 01:16:47 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+Unilever,519,Sumarizao de Produtos,Normalizada,Sat Jan 08 2022 08:32:49 GMT-0300 (GMT-03:00),07/01/2022 23:39:29
+Unilever,198,Integração de Política de Preço,Normalizada,Sat Jan 08 2022 08:32:49 GMT-0300 (GMT-03:00),08/01/2022 00:02:44
+Climate,300,Gerar Chaves Assimétricas,Normalizada,Sat Jan 08 2022 08:58:48 GMT-0300 (GMT-03:00),06/01/2022 07:46:13
+Climate,300,Gerar Chaves Assimétricas,Atrasada,Sat Jan 08 2022 09:09:47 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Middleware,320,Notificação Limite de Crédito,Atrasada,Sat Jan 08 2022 09:14:48 GMT-0300 (GMT-03:00),08/01/2022 09:03:51
+Middleware,320,Notificação Limite de Crédito,Normalizada,Sat Jan 08 2022 09:16:48 GMT-0300 (GMT-03:00),08/01/2022 09:03:51
+Unilever,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Vila Nova,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),08/01/2022 07:39:12
+Loja Perfeita,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 12:06:08
+Josapar,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 07:51:38
+Josapar,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Josapar,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),04/01/2022 07:51:43
+Coty - Loja do Varejo,198,Integração de Política de Preço,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Josapar,193,Disparar Emails,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),06/01/2022 20:18:02
+AbasteceBem,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,,,Hub com erro,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+AbasteceBem,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 10:00:03 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+Unilever,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Middleware,320,Notificação Limite de Crédito,Atrasada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),08/01/2022 09:49:38
+Climate,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Atrasada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Vila Nova,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),08/01/2022 07:39:12
+Loja Perfeita,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:08
+Josapar,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 07:51:38
+Josapar,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Josapar,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),04/01/2022 07:51:43
+Josapar,193,Disparar Emails,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),06/01/2022 20:18:02
+Coty - Loja do Varejo,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,198,Integração de Política de Preço,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+AbasteceBem,,,Hub ativo,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 10:00:48 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+Middleware,320,Notificação Limite de Crédito,Normalizada,Sat Jan 08 2022 10:01:50 GMT-0300 (GMT-03:00),08/01/2022 09:49:38
+Food,,,Hub com erro,Sat Jan 08 2022 10:32:48 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub ativo,Sat Jan 08 2022 10:33:49 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,188,Importar Produtos,Parada,Sat Jan 08 2022 12:30:48 GMT-0300 (GMT-03:00),08/01/2022 12:19:36
+Coty - Loja do Varejo,208,Envio automático de relatórios,Parada,Sat Jan 08 2022 12:31:49 GMT-0300 (GMT-03:00),08/01/2022 12:19:55
+AbasteceBem,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 13:40:48 GMT-0300 (GMT-03:00),07/01/2022 13:30:08
+AbasteceBem,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 13:40:48 GMT-0300 (GMT-03:00),07/01/2022 13:30:09
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 14:11:47 GMT-0300 (GMT-03:00),04/01/2022 12:06:08
+Josapar,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 14:11:47 GMT-0300 (GMT-03:00),04/01/2022 07:51:38
+Josapar,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 14:11:47 GMT-0300 (GMT-03:00),04/01/2022 07:51:43
+Josapar,193,Disparar Emails,Normalizada,Sat Jan 08 2022 14:11:47 GMT-0300 (GMT-03:00),06/01/2022 20:18:02
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Normalizada,Sat Jan 08 2022 14:12:49 GMT-0300 (GMT-03:00),08/01/2022 07:39:12
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Atrasada,Sat Jan 08 2022 14:22:49 GMT-0300 (GMT-03:00),08/01/2022 14:12:09
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 14:24:48 GMT-0300 (GMT-03:00),08/01/2022 14:11:29
+Vila Nova,205,Alimentar Pedido Hora,Atrasada,Sat Jan 08 2022 14:47:48 GMT-0300 (GMT-03:00),07/01/2022 14:37:31
+Unilever,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Loja Perfeita,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),08/01/2022 14:11:29
+Josapar,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Coty - Loja do Varejo,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,208,Envio automático de relatórios,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),08/01/2022 12:19:55
+Coty - Loja do Varejo,188,Importar Produtos,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),08/01/2022 12:19:36
+Coty - Loja do Varejo,198,Integração de Política de Preço,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+AbasteceBem,,,Hub com erro,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),07/01/2022 13:30:08
+AbasteceBem,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+AbasteceBem,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 15:01:06 GMT-0300 (GMT-03:00),07/01/2022 13:30:09
+Unilever,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Nike,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Atrasada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Loja Perfeita,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),08/01/2022 14:11:29
+Josapar,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Coty - Loja do Varejo,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,208,Envio automático de relatórios,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),08/01/2022 12:19:55
+Coty - Loja do Varejo,188,Importar Produtos,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),08/01/2022 12:19:36
+Coty - Loja do Varejo,198,Integração de Política de Preço,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+AbasteceBem,,,Hub ativo,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),07/01/2022 13:30:08
+AbasteceBem,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+AbasteceBem,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 15:01:52 GMT-0300 (GMT-03:00),07/01/2022 13:30:09
+Unilever,519,Sumarizao de Produtos,Parada,Sat Jan 08 2022 15:05:49 GMT-0300 (GMT-03:00),08/01/2022 14:25:01
+Middleware,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:09:48 GMT-0300 (GMT-03:00),08/01/2022 16:59:02
+Middleware,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:11:50 GMT-0300 (GMT-03:00),08/01/2022 16:59:02
+Middleware,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:21:50 GMT-0300 (GMT-03:00),08/01/2022 17:11:11
+Vila Nova,207,Alimentar PedidosBI Dia,Atrasada,Sat Jan 08 2022 17:24:48 GMT-0300 (GMT-03:00),07/01/2022 17:14:43
+Middleware,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:25:48 GMT-0300 (GMT-03:00),08/01/2022 17:11:11
+Unilever,519,Sumarizao de Produtos,Normalizada,Sat Jan 08 2022 17:32:48 GMT-0300 (GMT-03:00),08/01/2022 14:25:01
+Food,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:33:48 GMT-0300 (GMT-03:00),08/01/2022 17:23:06
+Vila Nova,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 17:33:48 GMT-0300 (GMT-03:00),07/01/2022 14:37:31
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 17:33:48 GMT-0300 (GMT-03:00),08/01/2022 14:11:29
+Josapar,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 17:33:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:09
+Middleware,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:35:50 GMT-0300 (GMT-03:00),08/01/2022 17:25:16
+Food,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:36:48 GMT-0300 (GMT-03:00),08/01/2022 17:23:06
+Middleware,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:41:48 GMT-0300 (GMT-03:00),08/01/2022 17:25:16
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 17:45:48 GMT-0300 (GMT-03:00),08/01/2022 17:32:58
+Food,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:46:49 GMT-0300 (GMT-03:00),08/01/2022 17:35:59
+Middleware,184,Integração Preço,Atrasada,Sat Jan 08 2022 17:52:48 GMT-0300 (GMT-03:00),08/01/2022 17:41:19
+Middleware,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:53:48 GMT-0300 (GMT-03:00),08/01/2022 17:41:19
+Food,184,Integração Preço,Normalizada,Sat Jan 08 2022 17:59:48 GMT-0300 (GMT-03:00),08/01/2022 17:35:59
+Food,184,Integração Preço,Atrasada,Sat Jan 08 2022 18:09:48 GMT-0300 (GMT-03:00),08/01/2022 17:58:55
+Unilever,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Food,184,Integração Preço,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 17:58:55
+Nike,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Vila Nova,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Vila Nova,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),07/01/2022 17:14:43
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 14:12:09
+Loja Perfeita,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 17:32:58
+Coty - Loja do Varejo,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,208,Envio automático de relatórios,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 12:19:55
+Coty - Loja do Varejo,188,Importar Produtos,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 12:19:36
+Coty - Loja do Varejo,198,Integração de Política de Preço,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+AbasteceBem,,,Hub com erro,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,205,Alimentar Pedido Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),07/01/2022 13:30:08
+AbasteceBem,206,Alimentar PedidosBI Hora,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+AbasteceBem,207,Alimentar PedidosBI Dia,Normalizada,Sat Jan 08 2022 18:22:20 GMT-0300 (GMT-03:00),07/01/2022 13:30:09
+Unilever,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Food,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Food,184,Integração Preço,Atrasada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 17:58:55
+Nike,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Middleware,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Climate,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Climate,300,Gerar Chaves Assimétricas,Atrasada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 08:58:45
+Fabercastell,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Hersheys,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Mondelez,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Vila Nova,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Vila Nova,207,Alimentar PedidosBI Dia,Atrasada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),07/01/2022 17:14:43
+Vila Nova,220,Enfileirar e Reenfileirar EMail de Filial Pendente,Atrasada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 14:12:09
+Loja Perfeita,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Omron,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Cuidado todos os dias,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:01
+Cuidado todos os dias,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),04/01/2022 07:50:56
+Cuidado todos os dias,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),04/01/2022 12:06:02
+Cuidado todos os dias,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),04/01/2022 07:50:58
+Josapar,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Josapar,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 17:32:58
+Coty - Loja do Varejo,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+Coty - Loja do Varejo,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),06/01/2022 20:07:33
+Coty - Loja do Varejo,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),06/01/2022 13:15:00
+Coty - Loja do Varejo,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),06/01/2022 20:07:34
+Coty - Loja do Varejo,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),06/01/2022 13:15:04
+Coty - Loja do Varejo,208,Envio automático de relatórios,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 12:19:55
+Coty - Loja do Varejo,188,Importar Produtos,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 12:19:36
+Coty - Loja do Varejo,198,Integração de Política de Preço,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),08/01/2022 07:43:09
+AbasteceBem,,,Hub ativo,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),undefined
+AbasteceBem,204,Enviar carrinhos abandonados para o parceiro MarketingTech,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),07/01/2022 19:52:00
+AbasteceBem,205,Alimentar Pedido Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),07/01/2022 13:30:08
+AbasteceBem,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),07/01/2022 19:13:17
+AbasteceBem,207,Alimentar PedidosBI Dia,Parada,Sat Jan 08 2022 18:24:48 GMT-0300 (GMT-03:00),07/01/2022 13:30:09
+Josapar,206,Alimentar PedidosBI Hora,Parada,Sat Jan 08 2022 18:43:48 GMT-0300 (GMT-03:00),08/01/2022 17:32:59

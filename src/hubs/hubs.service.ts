@@ -15,6 +15,7 @@ export class HubsService {
         id: hub.id,
         name: hub.name,
         url_hub: hub.url_hub,
+        url_icon: hub.url_icon,
       };
     });
     for await (const response of hubsResponses) {
@@ -23,6 +24,7 @@ export class HubsService {
         name: response.name,
         error: false,
         url_hub: response.url_hub,
+        url_icon: response.url_icon,
         tasks: [],
       };
       try {
