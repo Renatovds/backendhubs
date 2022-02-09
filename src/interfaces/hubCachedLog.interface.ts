@@ -1,7 +1,6 @@
-import { TaskLog } from './taskLog.interface';
+import { ITaskLogInterface } from './ItaskLoginterface';
 
 export interface HubCachedLog {
-  hubID: string;
-  name: string;
-  tasks: TaskLog[];
+  HubName: string;
+  tasks: ITaskLogInterface[];
 }

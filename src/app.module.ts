@@ -4,8 +4,6 @@ import { HubsController } from './hubs/hubs.controller';
 import { LogsController } from './logs/logs.controller';
 import { HubsService } from './hubs/hubs.service';
 import { Logger } from './logs/logger.service';
-import { LogsService } from './logs/logs.service';
-import { LoggerWinston } from './logs/loggerWinston.service';
 import { HubsCached } from './hubs/hubsCached.service';
 import { SchedulerService } from './scheduler/scheduler.service';
 import { CheckLateTaskService } from './check-late-task/check-late-task.service';
@@ -41,7 +39,6 @@ import * as redisStore from 'cache-manager-redis-store';
     HubsCached,
     SchedulerService,
     Logger,
-    LoggerWinston,
   ],
   exports: [CheckLateTaskService],
 })
