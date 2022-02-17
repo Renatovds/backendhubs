@@ -7,26 +7,28 @@ import { Logger } from '../logs/logger.service';
 
 @Injectable()
 export class SchedulerService {
-  constructor(
-    private hubsService: HubsService,
-    private hubsCached: HubsCached,
-    private checkLateTask: CheckLateTaskService,
-    private logger: Logger,
-  ) {}
-  @Cron(
-    `${
-      process.env.SCHEDULER_INTERVAL
-        ? process.env.SCHEDULER_INTERVAL
-        : '45 * * * * *'
-    }`,
-  )
-  async execute() {
-    const data = await this.hubsService.execute();
-    const checkedData = this.checkLateTask.execute(data);
-    const filteredData = this.checkLateTask.filterTasks(checkedData);
-    // this.logger.wrFile(filteredData);
-    await this.logger.wrFile(filteredData);
+    constructor(
+        private hubsService: HubsService,
+        private hubsCached: HubsCached,
+        private checkLateTask: CheckLateTaskService,
+        private logger: Logger,
+    ) {}
+    @Cron(
+        `${
+            process.env.SCHEDULER_INTERVAL
+                ? process.env.SCHEDULER_INTERVAL
+                : '45 * * * * *'
+        }`,
+    )
+    async execute() {
+        const data = await this.hubsService.execute();
+        console.log(data);
+        const checkedData = this.checkLateTask.execute(data);
+        const filteredData = this.checkLateTask.filterTasks(checkedData);
+        console.log('data filtrada');
+        console.log(filteredData);
 
-    await this.hubsCached.setValueHubs(filteredData);
-  }
+        await this.logger.wrFile(filteredData);
+        await this.hubsCached.setValueHubs(filteredData);
+    }
 }

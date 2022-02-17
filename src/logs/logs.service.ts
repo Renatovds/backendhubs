@@ -8,42 +8,46 @@ import { startOfDay, endOfDay, subDays } from 'date-fns';
 
 @Injectable()
 export class LogsService {
-  constructor(@InjectModel(Log.name) private logModel: Model<LogDocument>) {}
+    constructor(@InjectModel(Log.name) private logModel: Model<LogDocument>) {}
 
-  async create(createLogDto: CreateLogDto) {
-    console.log(createLogDto);
-    const log = await new this.logModel(createLogDto);
-    return log.save();
-  }
+    async create(createLogDto: CreateLogDto) {
+        console.log(createLogDto);
+        const log = await new this.logModel(createLogDto);
+        return log.save();
+    }
 
-  async findAll() {
-    return await this.logModel.find();
-  }
+    async findAll() {
+        return await this.logModel.find();
+    }
 
-  async findOne(id: string) {
-    return await this.logModel.findById({ _id: id });
-  }
+    async findOne(id: string) {
+        return await this.logModel.findById({ _id: id });
+    }
 
-  async findDate(daysBack: number) {
-    return await this.logModel.find({
-      createdAt: {
-        $gte:
-          daysBack == 0
-            ? startOfDay(new Date())
-            : subDays(new Date(), daysBack),
-        $lte: endOfDay(new Date()),
-      },
-    });
-  }
+    async findDate(daysBack: number) {
+        return await this.logModel.find({
+            createdAt: {
+                $gte:
+                    daysBack == 0
+                        ? startOfDay(new Date())
+                        : subDays(new Date(), daysBack),
+                $lte: endOfDay(new Date()),
+            },
+        });
+    }
 
-  async update(id: string, updateLogDto: UpdateLogDto) {
-    return await this.logModel.findByIdAndUpdate({ _id: id }, updateLogDto, {
-      new: true,
-      useFindAndModify: false,
-    });
-  }
+    async update(id: string, updateLogDto: UpdateLogDto) {
+        return await this.logModel.findByIdAndUpdate(
+            { _id: id },
+            updateLogDto,
+            {
+                new: true,
+                useFindAndModify: false,
+            },
+        );
+    }
 
-  //   remove(id: number) {
-  //     return `This action removes a #${id} log`;
-  //   }
+    //   remove(id: number) {
+    //     return `This action removes a #${id} log`;
+    //   }
 }

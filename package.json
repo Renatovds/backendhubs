@@ -5,6 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -19,6 +20,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json"
+
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
@@ -46,10 +48,10 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "winston": "^3.3.3",
-    "winston-csv-format": "^2.0.1",
-    "yarn": "^1.22.17"
+    "winston-csv-format": "^2.0.1"
   },
   "devDependencies": {
+    "yarn": "^1.22.17",
     "@nestjs/cli": "^8.0.0",
     "@nestjs/schematics": "^8.0.0",
     "@nestjs/testing": "^8.0.0",
