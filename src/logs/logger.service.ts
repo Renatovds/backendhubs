@@ -38,7 +38,7 @@ export class Logger {
             const oldHubData = cachedData.find(
                 (hubcached) => hubcached.name === hub.name,
             );
-
+            console.log('hub data', hub);
             if (hub.error && !oldHubData.error) {
                 const log = await this.logsService.create({
                     hub: hub.name,
