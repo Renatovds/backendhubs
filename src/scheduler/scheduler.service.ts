@@ -25,8 +25,6 @@ export class SchedulerService {
         console.log(data);
         const checkedData = this.checkLateTask.execute(data);
         const filteredData = this.checkLateTask.filterTasks(checkedData);
-        console.log('data filtrada');
-        console.log(filteredData);
 
         await this.logger.wrFile(filteredData);
         await this.hubsCached.setValueHubs(filteredData);

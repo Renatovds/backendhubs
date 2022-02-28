@@ -1,13 +1,13 @@
 import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-  UseGuards,
-  Res,
+    Controller,
+    Get,
+    Post,
+    Body,
+    Patch,
+    Param,
+    Delete,
+    UseGuards,
+    Res,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
@@ -17,39 +17,39 @@ import { Response } from 'express';
 
 @Controller('users')
 export class UsersController {
-  constructor(private readonly usersService: UsersService) {}
+    constructor(private readonly usersService: UsersService) {}
 
- // @UseGuards(JwtAuthGuard)
-  @Post()
-  async create(
-    @Body() createUserDto: CreateUserDto,
-    @Res({ passthrough: true }) response: Response,
-  ) {
-    const usersResponse = await this.usersService.create(createUserDto);
-    if (usersResponse instanceof Error) {
-      return response.status(400).send(usersResponse.message);
+    // @UseGuards(JwtAuthGuard)
+    @Post()
+    async create(
+        @Body() createUserDto: CreateUserDto,
+        @Res({ passthrough: true }) response: Response,
+    ) {
+        const usersResponse = await this.usersService.create(createUserDto);
+        if (usersResponse instanceof Error) {
+            return response.status(400).send(usersResponse.message);
+        }
+        return usersResponse;
     }
-    return usersResponse;
-  }
 
-  @Get()
-  findAll() {
-    return this.usersService.findAll();
-  }
+    @Get()
+    findAll() {
+        return this.usersService.findAll();
+    }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    console.log(id);
-    return this.usersService.findOneByID(id);
-  }
+    @Get(':id')
+    findOne(@Param('id') id: string) {
+        console.log(id);
+        return this.usersService.findOneByID(id);
+    }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.usersService.update(id, updateUserDto);
-  }
+    @Patch(':id')
+    update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
+        return this.usersService.update(id, updateUserDto);
+    }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.usersService.remove(id);
-  }
+    @Delete(':id')
+    remove(@Param('id') id: string) {
+        return this.usersService.remove(id);
+    }
 }

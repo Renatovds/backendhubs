@@ -17,29 +17,29 @@ import { AuthModule } from './auth/auth.module';
 import * as redisStore from 'cache-manager-redis-store';
 
 @Module({
-  imports: [
-    ConfigModule.forRoot({ envFilePath: '.env' }),
-    MongooseModule.forRoot(`${process.env.MONGODB_PATH}`),
-    HubsapisModule,
-    FiltersModule,
-    CacheModule.register({
-      store: redisStore,
-      host: `${process.env.REDIS_HOST}`,
-      port: process.env.REDIS_PORT,
-    }),
-    ScheduleModule.forRoot(),
-    UsersModule,
-    LogsModule,
-    AuthModule,
-  ],
-  controllers: [HubsController, LogsController],
-  providers: [
-    HubsService,
-    CheckLateTaskService,
-    HubsCached,
-    SchedulerService,
-    Logger,
-  ],
-  exports: [CheckLateTaskService],
+    imports: [
+        ConfigModule.forRoot({ envFilePath: '.env' }),
+        MongooseModule.forRoot(`${process.env.MONGODB_PATH}`),
+        HubsapisModule,
+        FiltersModule,
+        CacheModule.register({
+            store: redisStore,
+            host: `${process.env.REDIS_HOST}`,
+            port: process.env.REDIS_PORT,
+        }),
+        ScheduleModule.forRoot(),
+        UsersModule,
+        LogsModule,
+        AuthModule,
+    ],
+    controllers: [HubsController, LogsController],
+    providers: [
+        HubsService,
+        CheckLateTaskService,
+        HubsCached,
+        SchedulerService,
+        Logger,
+    ],
+    exports: [CheckLateTaskService],
 })
 export class AppModule {}

@@ -13,14 +13,12 @@ export class Logger {
 
     async wrFile(data: DataHub[]) {
         const checkCachedData = await this.hubsCached.getValueHubs('hubs');
-        console.log('oq tem no cache');
         console.log(checkCachedData);
         let cachedData: DataHub[] = [];
 
         if (checkCachedData?.length > 0) {
             cachedData = checkCachedData;
         } else {
-            console.log('caiu aki');
             await this.hubsCached.setValueHubs(data);
             cachedData = await this.hubsCached.getValueHubs('hubs');
         }
@@ -34,11 +32,9 @@ export class Logger {
             if (hubLogCacheCheck) {
                 hubLogCache = hubLogCacheCheck;
             }
-            console.log('hublogcache', hubLogCache);
             const oldHubData = cachedData.find(
                 (hubcached) => hubcached.name === hub.name,
             );
-            console.log('hub data', hub);
             if (hub.error && !oldHubData.error) {
                 const log = await this.logsService.create({
                     hub: hub.name,
