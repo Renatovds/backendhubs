@@ -31,7 +31,19 @@ services:
 
         environment:
             MONGO_INITDB_DATABASE: hubsdb
-
+    
         volumes:
             - ./docker-entrypoint-initdb.d/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro   
             - /opt/h2-data
+    frontendhubs:
+        build:
+            context: ../frontendhubs/CardsInfra/
+            args:
+                REACT_APP_GETHUBS_URL: http://localhost:3333/hubs
+                REACT_APP_REGISTERHUB_URL: http://localhost:3333/hubsapis/
+                REACT_APP_GERARCSV: http://localhost:3333/logs
+                REACT_APP_BAIXARCSV: http://localhost:3333/logs
+        ports:
+            - "80:80"
+        
+        
